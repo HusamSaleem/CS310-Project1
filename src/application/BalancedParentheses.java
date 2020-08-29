@@ -28,7 +28,7 @@ public class BalancedParentheses {
 		app.checkIfBalanced();
 		
 		System.out.println("\nTEST CASE 3:");
-		app.readFromFile("BalanceTest3.txt");
+		app.readFromFile("BalanceTest3.txt"); 
 		app.checkIfBalanced(); 
 		
 		System.out.println("\nTEST CASE 4:");
