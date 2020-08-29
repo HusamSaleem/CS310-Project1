@@ -1,0 +1,8 @@
+public RudimentaryStudentEnrollmentManager() {
+		getInput(;
+		
+		queue = new Queue<Student>(MAX_ITEMS);
+		enrolledStudents = new Student[capacity];
+		
+		this.size = 0;
+	}

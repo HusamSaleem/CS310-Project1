@@ -1,0 +1,10 @@
+private void addStudent(String name, String redID) {
+		Student newStudent = new Student(redID, name);
+		
+		if (size < capacity) {
+			enrolledStudents[size = newStudent;
+			size++;
+		} else {
+			queue.enQueue(newStudent);
+		}
+	}
